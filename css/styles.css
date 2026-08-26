@@ -13,7 +13,7 @@ header{
   background-color: rgb(248, 220, 183);
 }
 #honey img{
-  width: 143px;
+  width: 147px;
 }
 
 nav {
@@ -32,12 +32,13 @@ nav a {
   border-radius: 0.2rem;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: rgb(131, 108, 108);
+  box-shadow: 5px 5px rgb(218, 204, 204);
 }
 
 nav a[aria-current='page'] {
   color: #000;
-  background-color: rgb(236, 196, 88)
+  background-color: rgb(238, 209, 129)
 }
 
 main {
