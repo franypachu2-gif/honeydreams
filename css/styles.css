@@ -9,6 +9,13 @@ body {
   background-color: white;
 }
 
+header{
+  background-color: burlywood;
+}
+#honey{
+  width: 13px;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -30,7 +37,7 @@ nav a {
 
 nav a[aria-current='page'] {
   color: #000;
-  background-color: #f18e8e;
+  background-color: #f39696;
 }
 
 main {
