@@ -10,10 +10,10 @@ body {
 }
 
 header{
-  background-color: burlywood;
+  background-color: rgb(248, 220, 183);
 }
-#honey{
-  width: 13px;
+#honey img{
+  width: 143px;
 }
 
 nav {
@@ -37,7 +37,7 @@ nav a {
 
 nav a[aria-current='page'] {
   color: #000;
-  background-color: #f39696;
+  background-color: rgb(236, 196, 88)
 }
 
 main {
