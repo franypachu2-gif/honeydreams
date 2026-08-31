@@ -33,12 +33,14 @@ nav a {
   text-align: center;
   text-decoration: none;
   color: rgb(131, 108, 108);
-  box-shadow: 5px 5px rgb(218, 204, 204);
 }
 
 nav a[aria-current='page'] {
   color: #000;
   background-color: rgb(238, 209, 129)
+}
+.activo{
+  box-shadow: 5px 5px rgb(218, 204, 204);
 }
 
 main {
@@ -48,4 +50,14 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+#cards{
+  text-align:center;
+  align-self: center;
+  background-color:rgb(241, 203, 154);
+  width: 1350px;
+  height:300px;
+  padding: 10px;
+  border: 20px;
 }
