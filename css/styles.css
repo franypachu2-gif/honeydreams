@@ -55,9 +55,6 @@ section {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
-}
-iframe section{
   overflow: hidden;
 }
 h1 {
