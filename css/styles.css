@@ -10,10 +10,10 @@ body {
 }
 
 header{
-  background-color: rgb(248, 220, 183);
+  background-color: rgb(252, 221, 184);
 }
 #honey img{
-  width: 147px;
+  width: 150px;
 }
 
 nav {
@@ -32,7 +32,7 @@ nav a {
   border-radius: 0.2rem;
   text-align: center;
   text-decoration: none;
-  color:rgb(65, 65, 65);
+  color:rgb(152, 115, 70);
 }
 
 nav a[aria-current='page'] {
@@ -40,7 +40,7 @@ nav a[aria-current='page'] {
   background-color: rgb(238, 209, 129)
 }
 .activo{
-  box-shadow: 5px 5px rgb(218, 204, 204);
+  box-shadow: 5px 5px rgba(211, 170, 18, 0.841);
 }
 
 main {
@@ -55,7 +55,7 @@ h1 {
 #cards{
   text-align:center;
   align-self: center;
-  background-color:rgb(241, 203, 154);
+  background-color:rgb(258, 221, 184);
   width: 1485px;
   height:410px;
   padding: 10px;
@@ -70,5 +70,5 @@ a{
 }
 
 #subrayado{
-  text-decoration: underline dotted rgb(159, 10, 10) 3px;
+  text-decoration: underline double rgb(159, 10, 10) 2px;
 }
