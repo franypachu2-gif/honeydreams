@@ -48,7 +48,6 @@ main {
 }
 section {
   width: 100%;
-  background-color:  rgb(238, 209, 129);
   margin: 0 auto;
   margin-bottom: 5px;
   display: flex;
