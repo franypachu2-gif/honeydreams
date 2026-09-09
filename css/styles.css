@@ -47,7 +47,7 @@ main {
   padding: 1rem;
 }
 section {
-  width: 1000px;
+  width: 100%;
   background-color:  rgb(238, 209, 129);
   margin: 0 auto;
   margin-bottom: 5px;
@@ -55,7 +55,6 @@ section {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 h1 {
   font-weight: bold;
@@ -66,7 +65,6 @@ h1 {
   text-align:center;
   align-self: center;
   background-color:rgb(258, 221, 184);
-  width: 1485px;
   height:410px;
   padding: 10px;
   border: 20px;
@@ -81,4 +79,36 @@ a{
 
 #subrayado{
   text-decoration: underline double rgb(159, 10, 10) 2px;
+}
+footer {
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#colegio {
+  width: 33%;
+  background-color: rgb(171, 126, 37);
+  padding: 5px;
+}
+#colegio a {
+  color: #ffffff;
+}
+#alumno {
+  width: 33%;
+  background-color: rgb(171, 126, 37);
+  color: white;
+  padding: 5px;
+}
+#alumno a {
+  color: #ffffff;
+}
+#sociales {
+  width: 33%;
+  background-color: rgb(171, 126, 37);
+  padding: 5px;
+}
+#sociales img {
+  width: 45px;
 }
