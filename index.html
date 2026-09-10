@@ -11,10 +11,12 @@
 </head>
 <header>
   <nav>
-    <a href="index.html" class="activo">Inicio</a>
-    <div class="dropdown">
+    <a href="#index.html" class="activo">Inicio</a>
+
+    <div class="desplegable">
       <a href="destinos.html">Destinos</a>
-      <div class="dropdown-content">
+
+      <div class="contenido-desplegable">
         <a href="america.html">América</a>
         <a href="europa.html">Europa</a>
         <a href="asia.html">Asia</a>
@@ -35,24 +37,24 @@
 <body>
 
   <main>
-    <h1>¡El viaje de tus sueños a un click!</h1>
+    <h1 id="index">¡El viaje de tus sueños a un click!</h1>
     <div id="cards">
-      <h2 id="subrayado"> ¡Espera!</h2>
+      <h2 id="subrayado">¡Espera!</h2>
       <p>¿Quieres participar de esta magia por siempre? Compra nuestras cards y forma parte de nuestra familia</p>
       <a href="catálogo.html">
-        <img src="img/cardgold.png" alt="tarjetagold">
+        <img src="img/cardgold.png" alt="tarjetagold" loading="lazy">
       </a>
       <a href="catálogo.html">
-        <img src="img/cartablack.png" alt="tarjetablack">
+        <img src="img/cartablack.png" alt="tarjetablack" loading="lazy">
       </a>
       <a href="catálogo.html">
-        <img src="img/cartaplateada.png" alt="tarjetasilver">
+        <img src="img/cartaplateada.png" alt="tarjetasilver" loading="lazy">
       </a>
     </div>
     <section>
       <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
+      padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+      border-radius: 8px; will-change: transform;">
         <iframe loading="lazy"
           style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
           src="https://www.canva.com/design/DAHUP241EQU/a3DkEVVWDRBYedNS239J_w/view?embed"
@@ -63,27 +65,33 @@
     </section>
 
     <section id="si-o-si">
-      <h2>Servicios incluídos sí o sí</h2>
       <table>
         <tr>
-          <td><img src="img/Pasaje.png" alt="pasaje"></td>
+          <h2>Servicios incluídos sí o sí</h2>
+          <td><img src="img/Pasaje.png" alt="pasaje" loading="lazy"></td>
           <td>Pasaje</td>
-          <td><img src="img/asesoramiento-de-documentación.png" alt="asesoramiento-de-documentación"></td>
+          <td><img src="img/asesoramiento-de-documentación.png" alt="asesoramiento-de-documentación" loading="lazy"></td>
           <td>Asesoramiento <br> de documentación</td>
-          <td><img src="img/cenas-personalizadas.png" alt="cenas-personalizadas"></td>
+          <td><img src="img/cenas-personalizadas.png" alt="cenas-personalizadas" loading="lazy"></td>
           <td>Cenas <br> personalizadas</td>
         </tr>
         <tr>
-          <td><img src="img/todas-las-comidas.png" alt="todas las comidas"></td>
+          <td><img src="img/todas-las-comidas.png" alt="todas las comidas" loading="lazy"></td>
           <td>Todas las comidas</td>
-          <td><img src="img/traslado.png" alt=""></td>
+          <td><img src="img/traslado.png" alt="traslado"loading="lazy"></td>
           <td>Traslado</td>
-          <td><img src="img/seguro-de-viaje.png" alt="seguro-de-viaje"></td>
+          <td><img src="img/seguro-de-viaje.png" alt="seguro-de-viaje"loading="lazy"></td>
           <td>Seguro de viaje</td>
         </tr>
       </table>
     </section>
-
+    <section>
+      <img src="img/new.png" alt="magic-kingdom" width="100%" loading="lazy">
+    </section>
+    <div id="volver-inicio">
+      <img src="https://thypix.com/wp-content/uploads/2020/04/white-arrow-73.png" alt="flecha" width="50px" loading="lazy">
+<a href="#">VUELVE AL INICIO</a>
+    </div>
   </main>
 </body>
 
