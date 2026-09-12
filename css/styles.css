@@ -1,12 +1,15 @@
 * {
   box-sizing: border-box;
 }
-header{
+
+header {
   background-color: rgb(252, 221, 184);
 }
-#honey img{
+
+#honey img {
   width: 200px;
 }
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -23,14 +26,15 @@ nav a {
   border-radius: 0.2rem;
   text-align: center;
   text-decoration: none;
-  color:rgb(152, 115, 70);
+  color: rgb(152, 115, 70);
 }
 
 nav a[aria-current='page'] {
   color: #000;
   background-color: rgb(238, 209, 129)
 }
-.activo{
+
+.activo {
   box-shadow: 5px 5px rgba(211, 170, 18, 0.841);
 }
 
@@ -44,6 +48,7 @@ body {
 main {
   padding: 1rem;
 }
+
 section {
   width: 100%;
   margin: 0 auto;
@@ -53,7 +58,8 @@ section {
   align-items: center;
   justify-content: center;
 }
- #index {
+
+#index {
   font-weight: bold;
   font-size: 1.5rem;
   text-align: center;
@@ -62,41 +68,47 @@ section {
   color: rgb(152, 115, 70);
 }
 
-#cards{
-  text-align:center;
+#cards {
+  text-align: center;
   align-self: center;
-  background-color:rgb(258, 221, 184);
-  height:410px;
+  background-color: rgb(258, 221, 184);
+  height: 410px;
   padding: 10px;
   border: 20px;
   color: rgb(152, 115, 70);
 }
-#cards img{
+
+#cards img {
   width: 299px;
   height: 299px;
 }
+
 a {
   color: rgba(255, 255, 255, 0);
 }
 
-#subrayado{
+#subrayado {
   text-decoration: underline double rgb(159, 10, 10) 2px;
 }
-#si-o-si{
-text-align: center;
-background-color: wheat;
-word-wrap: break-word;
+
+#si-o-si {
+  text-align: center;
+  background-color: wheat;
+  word-wrap: break-word;
 }
 
-#si-o-si tr,#si-o-si td{
+#si-o-si tr,
+#si-o-si td {
   border: solid rgb(171, 126, 37) 0.5px;
   color: rgb(152, 115, 70);
 }
-table h2{
-  color:rgb(152, 115, 70);
+
+table h2 {
+  color: rgb(152, 115, 70);
   align-items: start;
 }
-table img{
+
+table img {
   padding: 4px;
 }
 
@@ -107,77 +119,132 @@ footer {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 #colegio {
   width: 33%;
   background-color: rgb(171, 126, 37);
   padding: 5px;
 }
+
 #colegio a {
   color: #ffffff;
 }
+
 #alumno {
   width: 33%;
   background-color: rgb(171, 126, 37);
   color: white;
   padding: 5px;
 }
+
 #alumno a {
   color: #ffffff;
 }
+
 #sociales {
   width: 33%;
   background-color: rgb(171, 126, 37);
   padding: 5px;
 }
+
 #sociales img {
   width: 45px;
 }
+
 .desplegable {
   position: relative;
   display: inline-block;
 }
-.contenido-desplegable{
+
+.contenido-desplegable {
   display: none;
   position: absolute;
   background-color: white;
   min-width: 180px;
   z-index: 10px;
 }
-.contenido-desplegable a{
+
+.contenido-desplegable a {
   display: block;
   padding: 10px 0.2px;
   text-decoration: none;
 }
-.contenido-desplegable a:hover{
+
+.contenido-desplegable a:hover {
   background-color: #f2f2f2;
 }
-.desplegable:hover .contenido-desplegable{
-display: block;
-}
-#volver-inicio{
-background-color: bisque;
-text-align: center;
-padding: 30px;
-}
-#volver-inicio a{
-  color:rgb(152, 115, 70);
-  font-size: 70px;
-}
-.imagen-con-texto{
-  position: relative;
-  width: 500px;
-}
 
-.imagen-con-texto img{
-  width: 100%;
+.desplegable:hover .contenido-desplegable {
   display: block;
 }
-.imagen-con-texto h2{
+
+#volver-inicio {
+  background-color: bisque;
+  text-align: center;
+  padding: 30px;
+}
+
+#volver-inicio a {
+  color: rgb(152, 115, 70);
+  font-size: 70px;
+}
+
+.imagen-con-texto {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.imagen-con-texto img {
+  height: 600px;
+  object-fit: cover;
+  display: block;
+}
+
+.imagen-con-texto h2 {
   position: absolute;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  top: 40%;
+  right: 5%;
+  transform: translate(-50%);
+  left: auto;
   margin: 0;
   color: white;
+  font-size: 32px;
+  text-align: right;
+}
 
+.africa {
+display: flex;
+align-items: center;
+gap: 40px;
+margin: 50px 0;
+}
+
+.africa img{
+width: 35%;
+height: 400px;
+object-fit: cover;
+}
+.texto-africa{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.texto-africa h2{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.texto-africa p{
+  font-size: 16px;
+  line-height: 1.5;
+}
+.boton{
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 25px;
+background-color: #ffffff;
+color: #000000;
+text-decoration: none;
+border-radius: 25px;
+font-weight: bold;
 }
