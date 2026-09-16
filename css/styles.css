@@ -214,37 +214,159 @@ footer {
 }
 
 .africa {
-display: flex;
-align-items: center;
-gap: 40px;
-margin: 50px 0;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 50px 0;
 }
 
-.africa img{
-width: 35%;
-height: 400px;
-object-fit: cover;
+.africa img {
+  width: 35%;
+  height: 400px;
+  object-fit: cover;
 }
-.texto-africa{
+
+.texto-africa {
   display: flex;
   flex-direction: column;
   text-align: left;
 }
-.texto-africa h2{
+
+.texto-africa h2 {
   font-size: 40px;
   margin-bottom: 10px;
 }
-.texto-africa p{
+
+.texto-africa p {
   font-size: 16px;
   line-height: 1.5;
 }
-.boton{
+
+.america {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 40px;
+  margin: 50px 0;
+}
+
+.america img {
+  width: 35%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.texto-america {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.texto-america h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.texto-america p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.asia {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 50px 0;
+}
+
+.asia img {
+  width: 35%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.texto-asia {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.texto-asia h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.texto-asia p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.europa {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 40px;
+  margin: 50px 0;
+}
+
+.europa img {
+  width: 35%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.texto-europa {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.texto-europa h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.texto-europa p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.oceania {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 50px 0;
+}
+
+.oceania img {
+  width: 35%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.texto-oceania {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.texto-oceania h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.texto-oceania p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.boton {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 25px;
-background-color: #ffffff;
-color: #000000;
-text-decoration: none;
-border-radius: 25px;
-font-weight: bold;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
 }
