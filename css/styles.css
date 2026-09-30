@@ -377,5 +377,5 @@ footer {
   background-color: rgb(255, 239, 210);
   padding: 40px;
   color: rgb(152, 115, 70);
-  text-decoration: dotted;
+  text-decoration: underline;
 }
