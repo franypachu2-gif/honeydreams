@@ -84,7 +84,7 @@ section {
 }
 
 a {
-  color: rgb(231, 222, 96);
+  color: rgb(153, 146, 45);
   
 }
 
@@ -379,3 +379,9 @@ footer {
   padding: 40px;
   color: rgb(89, 20, 155);
   text-decoration: underline;  }
+
+#pdf{
+  text-decoration: dotted;
+  text-align: center;
+  font: 38px;
+}
