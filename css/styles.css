@@ -85,7 +85,7 @@ section {
 
 a {
   color: rgb(180, 219, 216);
-  
+
 }
 
 #subrayado {
@@ -416,6 +416,90 @@ footer {
   font-size: 60px;
 }
 
+.destinos-videos {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 100%;
+}
+
+.video-card {
+  position: relative;
+  width: 24%;
+  aspect-ratio: 1 / 1;
+  margin: 1.2em 0 0.9em;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(63, 69, 81, 0.16);
+  background: #f3dfcd;
+}
+
+.video-toggle {
+  position: absolute;
+  opacity: 0;
+}
+
+.video-portada {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: linear-gradient(145deg, rgb(254, 167, 45), 152, 61), rgb(185, 142, 255);
+  color: #7e4b30;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.video-portada span {
+  display: grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: white;
+  color: #9c6849;
+  font-size: 23px;
+}
+
+.video-reproductor {
+  display: none;
+  position: absolute;
+  inset: 0;
+}
+
+.video-reproductor iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-toggle:checked~.video-portada {
+  display: none;
+}
+
+.video-toggle:checked~.video-reproductor {
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .video-card {
+    width: 44%;
+  }
+}
+
+@media (max-width: 420px) {
+  .video-card {
+    width: 90%;
+  }
+}
+
+
 .pagina-asia {
   position: relative;
   margin: 0;
@@ -479,24 +563,26 @@ footer {
   font-size: 60px;
 }
 
-#contacto{
+#contacto {
   font-weight: bold;
   font-size: 1.5rem;
   text-align: center;
   background-color: rgb(210, 230, 255);
   padding: 40px;
   color: rgb(89, 20, 155);
-  text-decoration: underline;  }
+  text-decoration: underline;
+}
 
-#pdf{
-  text-decoration:wavy;
+#pdf {
+  text-decoration: wavy;
   text-align: center;
   font-size: 50px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: rgb(210, 230, 255);
-  color: rgb(89, 20, 155) ;
+  color: rgb(89, 20, 155);
 }
-#pareja{
+
+#pareja {
   width: 35%;
   height: 400px;
 }
