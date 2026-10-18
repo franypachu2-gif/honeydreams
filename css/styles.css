@@ -609,11 +609,11 @@ footer {
   border: 0;
 }
 
-.video-toggle-asia:checked:checked~.video-portada {
+.video-toggle-asia:checked~.video-portada-asia {
   display: none;
 }
 
-.video-toggle-asia:checked~.video-portada {
+.video-toggle-asia:checked~.video-reproductor-asia {
   display: block;
 }
 
@@ -726,11 +726,11 @@ footer {
   border: 0;
 }
 
-.video-toggle-europa:checked~.video-portada {
+.video-toggle-europa:checked~.video-portada-europa {
   display: none;
 }
 
-.video-toggle-europa:checked~.video-portada {
+.video-toggle-europa:checked~.video-reproductor-europa {
   display: block;
 }
 
