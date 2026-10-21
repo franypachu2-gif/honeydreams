@@ -527,7 +527,7 @@ footer {
   position: relative;
   width: 24%;
   aspect-ratio: 1 / 1;
-  margin: 1.2em 0 0.9em;
+  margin: 0;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(63, 69, 81, 0.16);
