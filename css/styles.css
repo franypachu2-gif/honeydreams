@@ -500,18 +500,6 @@ footer {
   display: block;
 }
 
-@media (max-width: 700px) {
-  .video-card {
-    width: 44%;
-  }
-}
-
-@media (max-width: 420px) {
-  .video-card {
-    width: 90%;
-  }
-}
-
 .pagina-asia {
   position: relative;
   margin: 0;
