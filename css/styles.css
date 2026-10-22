@@ -370,7 +370,7 @@ footer {
   text-decoration: none;
   border-radius: 25px;
   font-weight: bold;
-  
+
 }
 
 
@@ -900,10 +900,71 @@ footer {
   display: block;
 }
 
-.centrar-boton{
+.centrar-boton {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 40px;
+}
+.historia-fundadores p{
+  padding: 20px 30px;
+  margin: 30px auto;
+  border-radius: 10px;
+  width:80%;
+  max-width: 900px;
+  text-align: center;
+}
+#fundadores{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 50px 0;
+}
+
+.andrea{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.andrea h2{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.andrea p{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.andrea img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
+.paolo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.paolo h2{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.paolo p{
+  font-size: 16px;
+  line-height: 1.5;
+  
+}
+
+.paolo img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center 20%;
 }
 
 #contacto {
