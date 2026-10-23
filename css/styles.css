@@ -906,58 +906,72 @@ footer {
   margin-bottom: 40px;
 }
 
-#fundadores{
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  margin: 50px 0;
+.historia-fundadores {
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
 }
 
-.andrea{
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-.andrea h2{
-  font-size: 40px;
+.historia-fundadores h1 {
+  font-size: 32px;
   margin-bottom: 10px;
 }
 
-.andrea p{
+.historia-fundadores p {
   font-size: 16px;
   line-height: 1.5;
+}
+
+#fundadores {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px auto;
+  width: 90%;
+}
+
+.andrea{
+  width: 40%;
+  text-align: left;
 }
 
 .andrea img{
   width: 100%;
-  height: 300px;
+  height: 350px;
   object-fit: cover;
   object-position: center 20%;
 }
 
-.paolo {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
+.andrea h2{
+  font-size: 24px;
+  margin-top: 10px;
 }
 
-.paolo h2{
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-
-.paolo p{
+.andrea p{
   font-size: 16px;
-  line-height: 1.5;
-  
+  line-height: 1.6;
+}
+
+.paolo{
+  width: 40%;
+  text-align: left;
 }
 
 .paolo img{
   width: 100%;
-  height: 300px;
+  height: 350px;
   object-fit: cover;
   object-position: center 20%;
+}
+
+.paolo h2{
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.paolo p{
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 #contacto {
