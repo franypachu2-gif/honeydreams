@@ -913,7 +913,7 @@ footer {
 }
 
 .historia-fundadores h1 {
-  font-size: 32px;
+  font-size: 40px;
   margin-bottom: 10px;
 }
 
@@ -973,6 +973,48 @@ footer {
   font-size: 16px;
   line-height: 1.6;
 }
+
+.seccion-equipo{
+  text-align: center;
+  margin: 50px auto;
+}
+
+.seccion-equipo h2{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contenedor-equipos{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.equipo-amarillo, .equipo-mostaza, .equipo-azul{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.equipo-amarillo h3, .equipo-mostaza h3, .equipo-azul h3{
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 15px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equipo-amarillo img, .equipo-mostaza img, .equipo-azul img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
 
 #contacto {
   font-weight: bold;
