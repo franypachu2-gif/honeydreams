@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Presupuesto</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="script.js"></script>
+</head>
+<header>
+    <nav>
+        <a href="index.html">Inicio</a>
+
+        <div class="desplegable">
+            <a href="destinos.html" class="activo">Destinos</a>
+
+            <div class="contenido-desplegable">
+                <a href="africa.html">África</a>
+                <a href="america.html">América</a>
+                <a href="asia.html">Asia</a>
+                <a href="europa.html">Europa</a>
+                <a href="oceania.html">Ocenía</a>
+            </div>
+        </div>
+        <a href="catálogo.html">Catálogo</a>
+        <a href="sobrenosotros.html">Sobre Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <div id="logo">
+        <div id="honey">
+            <img src="img/rr.png" alt="honey" />
+
+        </div>
+
+    </div>
+</header>
+
+<body>
+
+
+    <main>
+        <h1>Formulario</h1>
+        <p>Ingrese sus datos para realizar la compra de sus pasajes, estadías, tarjetas, etc</p>
+        <section>
+            <div id="formulario">
+                <h2>Tus datos</h2>
+                <form action="#">
+
+                    <label for="fromdestino">Destino ¿A dónde quieren viajar?</label>
+                    <br>
+                    <input type="text" name="formnombre1" id="formnombre1" maxlength="30" minlength="3" required
+                        placeholder="Escriba aquí su respuesta...">
+                    <br>
+                    <br>
+                    <br>
+                    <label for="fromdestino">¿Cuantos días?</label>
+                    <br>
+                    <input type="text" name="formnombre1" id="formnombre1" maxlength="30" minlength="3" required
+                        placeholder="Escriba aquí su respuesta...">
+                    <br>
+                    <br>
+                    <br>
+                    <label for="fromdestino">Fecha de salida</label>
+                    <br>
+                    <input type="date" name="formnombre1" id="formnombre1" maxlength="30" minlength="3" required
+                        placeholder="Escriba aquí su respuesta...">
+
+                    <label for="formnombre">Nombres</label>
+                    <input type="text" name="formnombre1" id="formnombre1" maxlength="30" minlength="3" required
+                        placeholder="Ingrese aquí nombre1...">
+                    <input type="text" name="formnombre2" id="formnombre2" maxlength="30" minlength="3" required
+                        placeholder="Ingrese aquí nombre2...">
+
+                    <label for="formapellido">Apellido</label>
+                    <input type="text" name="formapellido" id="formapellido" maxlength="30" minlength="5" required
+                        placeholder="Escriba aquí su respuesta...">
+
+                    <label for="formcorreo">Correo electrónico</label>
+                    <input id="formcorreo" type="email" placeholder="honey123@dreams.com">
+                    <label for="formcorreo">Correo electrónico</label>
+                    <input type="radio" id="formf" name="formsexo" value="Femenino">
+                    <label for="fem">Femenino</label>
+                    <input type="radio" id="formm" name="formsexo" value="Masculino">
+                    <label for="masc">Masculina</label>
+                    <input type="radio" id="formn" name="formsexo" value="Nodecirlo">
+                    <label for="noinf">Prefiero no decir</label>
+
+                    <label for="ubicacion">Seleccione una ubicación</label> <br>
+                    <select name="ubicacion" id="formubi">
+                        <option value="plateaa">Platea Alta</option>
+                        <option value="plateam">Platea Media</option>
+                        <option value="plateab">Platea Baja</option>
+                        <option value="popular">Popular</option>
+                        <option value="palcov">Palco Vip</option>
+                    </select>
+                    <textarea name="areatexto" id="formtext" cols="30" rows="10"></textarea>
+
+                    <input type="submit">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="colegio">
+            <h3>Colegio:</h3>
+            <p>
+                <a href="https://www.stmary.edu.ar/es/como-llegar-pilar-sede-pilar" target=" _blank">
+                    Saint Mary of the hills
+                </a>
+            </p>
+            <p>Dirreción: Av. Parque, B1631 Zelaya, Provincia de Buenos Aires</p>
+        </div>
+
+        <div id="alumno">
+            <h3>Alumna:</h3>
+            <p>
+                <a href="mailto:alu.chiaradiagomezf@stmary.edu.ar">
+                    Francesca Chiaradia</a>
+            </p>
+            <p>
+                <a href="mailto:alu.riverom@stmary.edu.ar">
+                    María Paz Rivero</a>
+            </p>
+            <p>Curso: 2° M</p>
+        </div>
+
+        <div id="sociales">
+            <a href="https://www.instagram.com/honeydreamsforyou?stkn=ZDNndHZtcml5MXUz&utm_source=qr " target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
+                    alt="instagram" />
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

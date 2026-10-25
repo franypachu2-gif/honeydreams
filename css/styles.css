@@ -1020,9 +1020,9 @@ footer {
   border-radius: 8px;
 }
 
-#novedades{
-  background-color: pink;
-  color:rgb(255, 216, 223);
+.novedades{
+  background-color:pink;
+  color: whitesmoke;
   padding: 25px;
 }
 
@@ -1072,9 +1072,15 @@ footer {
   flex-direction: column;
 }
 
+#flipbook{
+  background-color: plum;
+  width: 100%;
+  padding: 50px;
+}
+
 #disney {
   background-color:rgb(142, 178, 244);
-  width:80%;
+  width:100%;
   margin: 40px auto 0 auto;
   border-radius: 10px;
 }
