@@ -42,60 +42,162 @@
     <main>
         <h1>Formulario</h1>
         <p>Ingrese sus datos para realizar la compra de sus pasajes, estadías, tarjetas, etc</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <section>
             <div id="formulario">
-                <h2>Tus datos</h2>
+                <h2>Datos sobre el destino</h2>
                 <form action="#">
+                    <label for="formcontinente">Seleccione un continente</label>
+                    <br>
+                    <select name="formcontinente" id="formcontinente">
 
-                    <label for="fromdestino">Destino ¿A dónde quieren viajar?</label>
-                    <br>
-                    <input type="text" name="formnombre1" id="formnombre1" maxlength="30" minlength="3" required
-                        placeholder="Escriba aquí su respuesta...">
-                    <br>
-                    <br>
-                    <br>
-                    <label for="fromdestino">¿Cuantos días?</label>
-                    <br>
-                    <input type="text" name="formnombre1" id="formnombre1" maxlength="30" minlength="3" required
-                        placeholder="Escriba aquí su respuesta...">
-                    <br>
-                    <br>
-                    <br>
-                    <label for="fromdestino">Fecha de salida</label>
-                    <br>
-                    <input type="date" name="formnombre1" id="formnombre1" maxlength="30" minlength="3" required
-                        placeholder="Escriba aquí su respuesta...">
-
-                    <label for="formnombre">Nombres</label>
-                    <input type="text" name="formnombre1" id="formnombre1" maxlength="30" minlength="3" required
-                        placeholder="Ingrese aquí nombre1...">
-                    <input type="text" name="formnombre2" id="formnombre2" maxlength="30" minlength="3" required
-                        placeholder="Ingrese aquí nombre2...">
-
-                    <label for="formapellido">Apellido</label>
-                    <input type="text" name="formapellido" id="formapellido" maxlength="30" minlength="5" required
-                        placeholder="Escriba aquí su respuesta...">
-
-                    <label for="formcorreo">Correo electrónico</label>
-                    <input id="formcorreo" type="email" placeholder="honey123@dreams.com">
-                    <label for="formcorreo">Correo electrónico</label>
-                    <input type="radio" id="formf" name="formsexo" value="Femenino">
-                    <label for="fem">Femenino</label>
-                    <input type="radio" id="formm" name="formsexo" value="Masculino">
-                    <label for="masc">Masculina</label>
-                    <input type="radio" id="formn" name="formsexo" value="Nodecirlo">
-                    <label for="noinf">Prefiero no decir</label>
-
-                    <label for="ubicacion">Seleccione una ubicación</label> <br>
-                    <select name="ubicacion" id="formubi">
-                        <option value="plateaa">Platea Alta</option>
-                        <option value="plateam">Platea Media</option>
-                        <option value="plateab">Platea Baja</option>
-                        <option value="popular">Popular</option>
-                        <option value="palcov">Palco Vip</option>
+                        <option value="africa">África</option>
+                        <option value="america">América</option>
+                        <option value="asia">Asia</option>
+                        <option value="europa">Europa</option>
+                        <option value="oceania">Oceanía </option>
                     </select>
-                    <textarea name="areatexto" id="formtext" cols="30" rows="10"></textarea>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="formdestino">Destino ¿A dónde quieren viajar?</label>
+                    <br>
+                    <input type="text" name="formdestino" id="formdestino" maxlength="30" minlength="3" required
+                        placeholder="Escriba aquí su respuesta...">
 
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <label for="formdias">¿Cuantos días?</label>
+                    <br>
+                    <input type="text" name="formdias" id="formdias" maxlength="30" minlength="3" required
+                        placeholder="Escriba aquí su respuesta...">
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <label for="fecha-salida">Fecha de salida</label>
+                    <br>
+                    <input type="date" name="fecha-salida" id="fecha-salida" required
+                        placeholder="Escriba aquí su respuesta...">
+                    <br>
+                    <br>
+                    <br>
+                    <label for="presupuesto1">¿Cuál es su presupuesto?</label>
+                    <br>
+                    <input type="radio" name="presupuesto1" id="presupuesto1" value="US$500">
+                    <label for="presupuesto1">US$ 500</label>
+                    <br>
+                    <br>
+                    <input type="radio" name="presupuesto2" id="presupuesto2" value="US$800">
+                    <label for="presupuesto2">US$ 800</label>
+                    <br>
+                    <br>
+                    <input type="radio" name="presupuesto3" id="presupuesto3" value="US$1000">
+                    <label for="presupuesto3">US$ 1000</label>
+                    <br>
+                    <br>
+                    <input type="radio" name="presupuesto4" id="presupuesto4" value="US$1500">
+                    <label for="presupuesto4">US$ 1500</label>
+                    <br>
+                    <br>
+                    <input type="text" name="presupuesto5" id="presupuesto5" placeholder="Otro..."
+                        maxlength="30" minlength="3">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h2>Tus datos</h2>
+
+                    <label for="formnombre1">Nombres</label>
+                    <br>
+                    <input type="text" name="formnombre1" id="formnombre1" maxlength="30" minlength="3"
+                        placeholder="Ingrese aquí nombre1 apellido1...">
+                    <br>
+                    <br>
+                    <input type="text" name="formnombre2" id="formnombre2" maxlength="30" minlength="3"
+                        placeholder="Ingrese aquí nombre2 apellido2...">
+                    <br>
+                    <br>
+                    <br>
+
+                    <label for="formcorreo">Correo electrónico</label>
+                    <br>
+                    <input id="formcorreo" type="email" required placeholder="honey123@ejemplo.com">
+                    <br>
+                    <br>
+                    <br>
+
+                    <label for="formtelefono">Número de teléfono</label>
+                    <br>
+                    <input type="tel" name="formtelefono" id="formtelefono" maxlength="10" minlength="10"
+                        required placeholder="1123456789">
+                    <br>
+                    <br>
+                    <br>
+                    <label for="formtarjeta">¿Te gustaría comprar alguna tarjeta?</label>
+                    <br>
+                    <input type="radio" name="formtarjeta" id="formtarjeta">
+                    <label for="formtarjetas">Sí</label>
+                    <select name="formtarjetas" id="formtarjetas">
+                        <option value="black">Black</option>
+                        <option value="gold">Gold</option>
+                        <option value="silver">Silver</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type="radio" name="formnotarjeta" id="formnotarjeta">
+                    <label for="formnotarjeta">No</label>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h2>Datos extra<br>(opcional)</h2>
+
+                    <label for="formmerch">¿Te gustaría incluir merch</label>
+                    <br>
+                    <input type="radio" name="formmerch" id="formmerch">
+                    <label for="formseleccionarmerch">Sí</label>
+                    <select name="formseleccionarmerch" id="formseleccionarmerch">
+                        <option value="kitbebidas">Kit para bebidas</option>
+                        <option value="buzo">Buzo</option>
+                        <option value="vela">Vela aromática</option>
+                        <option value="etiqueta">Etiqueta para equipaje</option>
+                        <option value="kitavion">Kit para avión</option>
+                        <option value="kitviaje">Kit de viaje</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type="radio" name="formnotarjeta" id="formnotarjeta">
+                    <label for="formnotarjeta">No</label>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="sugerencias">Aceptamos sugerencias</label>
+                    <br>
+                    <textarea name="areatexto" id="formtext" cols="30" rows="10"></textarea>
+                    <br>
+                    <br>
                     <input type="submit">
                 </form>
             </div>
