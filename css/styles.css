@@ -1023,6 +1023,7 @@ footer {
 #novedades{
   background-color: pink;
   color:rgb(255, 216, 223);
+  padding: 25px;
 }
 
 #tarjetas{
