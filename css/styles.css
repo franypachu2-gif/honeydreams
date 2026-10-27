@@ -1,4 +1,4 @@
-* {
+*{
   box-sizing: border-box;
 }
 
@@ -162,7 +162,7 @@ footer {
   position: absolute;
   background-color: white;
   min-width: 180px;
-  z-index: 10px;
+  z-index: 10;
 }
 
 .contenido-desplegable a {
@@ -900,6 +900,74 @@ footer {
   display: block;
 }
 
+/* Inicio presupuesto.html*/
+#formulario {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f8ff;
+  border: 2px solid #4682b4;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  color: #333333;
+}
+
+#formulario h2 {
+  color: #1e6091;
+  text-align: center;
+  background-color: #d6ecff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#formulario label {
+  font-size: 16px;
+}
+
+#formulario input[type="text"],
+#formulario input[type="email"],
+#formulario input[type="tel"],
+#formulario input[type="date"] {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #888888;
+  border-radius: 5px;
+}
+
+#formulario select {
+  padding: 8px;
+  border: 1px solid #888888;
+  border-radius: 5px;
+}
+
+#formulario input[type="radio"] {
+  margin: 8px;
+}
+
+#formulario textarea {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #888888;
+  border-radius: 5px;
+}
+
+#formulario input[type="submit"] {
+  background-color: #1e6091;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#formulario input[type="submit"]:hover {
+  background-color: #154360;
+}
+
+/*Fin presupuesto.html*/
+
+
+
 .centrar-boton {
   text-align: center;
   margin-top: 30px;
@@ -1020,67 +1088,67 @@ footer {
   border-radius: 8px;
 }
 
-.novedades{
-  background-color:pink;
+.novedades {
+  background-color: pink;
   color: whitesmoke;
   padding: 25px;
 }
 
-#tarjetas{
+#tarjetas {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
   gap: 10px;
   width: 100%;
-  background-color:rgb(255, 216, 223);
+  background-color: rgb(255, 216, 223);
   padding: 20px;
   color: rgb(245, 157, 172);
 }
 
-.beneficios{
+.beneficios {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   flex: 1;
 }
 
-.beneficios img{
+.beneficios img {
   width: 225px;
   flex-shrink: 0;
   margin-left: 5px;
 }
 
-.beneficios h3{
+.beneficios h3 {
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 8px;
 }
 
-.beneficios ol{
+.beneficios ol {
   font-size: 13px;
 }
 
-.beneficios p{
+.beneficios p {
   font-weight: bold;
   font-size: 14px;
   margin: 0;
 }
 
-.info-beneficios{
+.info-beneficios {
   display: flex;
   flex-direction: column;
 }
 
-#flipbook{
+#flipbook {
   background-color: plum;
   width: 100%;
   padding: 50px;
 }
 
 #disney {
-  background-color:rgb(142, 173, 229);
-  width:100%;
+  background-color: rgb(142, 173, 229);
+  width: 100%;
   margin: 40px auto 0 auto;
   border-radius: 10px;
 }

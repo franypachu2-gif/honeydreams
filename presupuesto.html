@@ -57,7 +57,7 @@
                 <form action="#">
                     <label for="formcontinente">Seleccione un continente</label>
                     <br>
-                    <select name="formcontinente" id="formcontinente">
+                    <select name="formcontinente" class="formcontinente">
 
                         <option value="africa">África</option>
                         <option value="america">América</option>
@@ -70,7 +70,7 @@
                     <br>
                     <label for="formdestino">Destino ¿A dónde quieren viajar?</label>
                     <br>
-                    <input type="text" name="formdestino" id="formdestino" maxlength="30" minlength="3" required
+                    <input type="text" name="formdestino" id="formdestino" maxlength="100" minlength="3" required
                         placeholder="Escriba aquí su respuesta...">
 
 
@@ -93,25 +93,25 @@
                     <br>
                     <br>
                     <br>
-                    <label for="presupuesto1">¿Cuál es su presupuesto?</label>
+                    <label for="presupuesto">¿Cuál es su presupuesto?</label>
                     <br>
-                    <input type="radio" name="presupuesto1" id="presupuesto1" value="US$500">
+                    <input type="radio" name="presupuesto" id="presupuesto1" value="US$500">
                     <label for="presupuesto1">US$ 500</label>
                     <br>
                     <br>
-                    <input type="radio" name="presupuesto2" id="presupuesto2" value="US$800">
+                    <input type="radio" name="presupuesto" id="presupuesto2" value="US$800">
                     <label for="presupuesto2">US$ 800</label>
                     <br>
                     <br>
-                    <input type="radio" name="presupuesto3" id="presupuesto3" value="US$1000">
+                    <input type="radio" name="presupuesto" id="presupuesto3" value="US$1000">
                     <label for="presupuesto3">US$ 1000</label>
                     <br>
                     <br>
-                    <input type="radio" name="presupuesto4" id="presupuesto4" value="US$1500">
+                    <input type="radio" name="presupuesto" id="presupuesto4" value="US$1500">
                     <label for="presupuesto4">US$ 1500</label>
                     <br>
                     <br>
-                    <input type="text" name="presupuesto5" id="presupuesto5" placeholder="Otro..."
+                    <input type="text" name="presupuesto" id="presupuesto5" placeholder="Otro..."
                         maxlength="30" minlength="3">
                     <br>
                     <br>
@@ -153,15 +153,15 @@
                     <label for="formtarjeta">¿Te gustaría comprar alguna tarjeta?</label>
                     <br>
                     <input type="radio" name="formtarjeta" id="formtarjeta">
-                    <label for="formtarjetas">Sí</label>
-                    <select name="formtarjetas" id="formtarjetas">
+                    <label for="formtarjeta">Sí</label>
+                    <select name="formtarjeta" id="formtarjetas">
                         <option value="black">Black</option>
                         <option value="gold">Gold</option>
                         <option value="silver">Silver</option>
                     </select>
                     <br>
                     <br>
-                    <input type="radio" name="formnotarjeta" id="formnotarjeta">
+                    <input type="radio" name="formtarjeta" id="formnotarjeta">
                     <label for="formnotarjeta">No</label>
                     <br>
                     <br>
@@ -188,7 +188,7 @@
                     </select>
                     <br>
                     <br>
-                    <input type="radio" name="formnomerch" id="formnomerch">
+                    <input type="radio" name="formmerch" id="formnomerch">
                     <label for="formnomerch">No</label>
                     <br>
                     <br>
