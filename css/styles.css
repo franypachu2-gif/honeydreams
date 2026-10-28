@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -36,6 +36,10 @@ nav a[aria-current='page'] {
 
 .activo {
   box-shadow: 5px 5px rgba(211, 170, 18, 0.841);
+}
+
+nav a:hover {
+  background-color: rgba(255, 227, 128, 0.841);
 }
 
 body {
@@ -94,8 +98,9 @@ a {
 
 #si-o-si {
   text-align: center;
-  background-color: wheat;
+  background-color: #f5deb3;
   word-wrap: break-word;
+  padding: 15px;
 }
 
 #si-o-si tr,
@@ -113,7 +118,13 @@ table img {
   padding: 4px;
 }
 
-#magic-kingdom{
+table th {
+  background-color: rgb(152, 115, 70);
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+#magic-kingdom img {
   width: 100%;
 }
 
@@ -939,13 +950,14 @@ footer {
   border-radius: 5px;
 }
 
+
 #formulario select {
   padding: 8px;
   border: 1px solid #888888;
   border-radius: 5px;
 }
 
-#formulario input[type="radio"] {
+#formulario input {
   margin: 8px;
 }
 
@@ -956,18 +968,14 @@ footer {
   border-radius: 5px;
 }
 
-#formulario input[type="submit"] {
-  background-color: #1e6091;
-  color: white;
+#formulario input {
+  background-color: white;
   padding: 10px 25px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-#formulario input[type="submit"]:hover {
-  background-color: #154360;
-}
 
 /*Fin presupuesto.html*/
 
