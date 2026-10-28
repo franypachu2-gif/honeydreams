@@ -19,14 +19,70 @@
         <a href="destinos.html">Destinos</a>
 
         <div class="contenido-desplegable">
-          <a href="africa.html">África</a>
-          <a href="america.html">América</a>
-          <a href="asia.html">Asia</a>
-          <a href="europa.html">Europa</a>
-          <a href="oceania.html" class="activo">Ocenía</a>
+
+          <div class="subdesplegable">
+            <a href="africa.html">África</a>
+
+            <div class="contenido-subdesplegable">
+              <a href="#egipto">Egipto</a>
+              <a href="#madagascar">Madagascar</a>
+              <a href="marruecos">Marruecos</a>
+              <a href="sudafrica">Sudáfrica</a>
+            </div>
+          </div>
+
+          <div class="subdesplegable">
+            <a href="america.html">América</a>
+
+            <div class="contenido-subdesplegable">
+              <a href="#argentina">Argentina</a>
+              <a href="#brasil">Brasil</a>
+              <a href="#colombia">Colombia</a>
+              <a href="#estadosunidos">Estados Unidos</a>
+              <a href="#disney">Disney</a>
+              <a href="#mexico">México</a>
+              <a href="#repdominicana">República Dominicana</a>
+              <a href="#uruguay">Uruguay</a>
+            </div>
+          </div>
+
+          <div class="subdesplegable">
+            <a href="asia.html">Asia</a>
+
+            <div class="contenido-subdesplegable">
+              <a href="#china">China</a>
+              <a href="#coreadelsur">Corea del Sur</a>
+              <a href="#dubai">Dubái</a>
+              <a href="#india">India</a>
+              <a href="#japon">Japón</a>
+            </div>
+          </div>
+
+          <div class="subdesplegable">
+            <a href="europa.html">Europa</a>
+
+            <div class="contenido-subdesplegable">
+              <a href="#croacia">Croacia</a>
+              <a href="#francia">Francia</a>
+              <a href="#grecia">Grecia</a>
+              <a href="#inglaterra">Inglaterra</a>
+              <a href="#italia">Italia</a>
+              <a href="#suiza">Suiza</a>
+            </div>
+          </div>
+
+          <div class="subdesplegable">
+            <a href="oceania.html" class="activo">Oceanía</a>
+
+            <div class="contenido-subdesplegable">
+              <a href="#australia">Australia</a>
+              <a href="#nzelanda">Nueva Zelanda</a>
+              <a href="#islaspoli">Islas Polinesias</a>
+            </div>
+          </div>
         </div>
       </div>
-      <a href="catálogo.html">Catalogo</a>
+      <a href="catálogo.html">Catálogo</a>
       <a href="sobrenosotros.html">Sobre Nosotros</a>
       <a href="contacto.html">Contacto</a>
     </nav>
@@ -52,9 +108,9 @@
     </h2>
 
     <section class="destinos-videos-oceania">
-      <h3 class="titulo-destacado-oceania">Australia</h3>
+      <h3 id="australia" class="titulo-destacado-oceania">Australia</h3>
       <div class="video-card-oceania">
-        <input type="checkbox" id="aus1" class="video-toggle-oceania">
+        <input type="checkbox" id="aus1" class="video-oceania">
         <label for="aus1" class="video-portada-oceania"><span>▶</span>Hoteles 5 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Australia 1"
@@ -63,7 +119,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="aus2" class="video-toggle-oceania">
+        <input type="checkbox" id="aus2" class="video-oceania">
         <label for="aus2" class="video-portada-oceania"><span>▶</span> Hoteles 4 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Australia 2"
@@ -72,7 +128,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="aus3" class="video-toggle-oceania">
+        <input type="checkbox" id="aus3" class="video-oceania">
         <label for="aus3" class="video-portada-oceania"><span>▶</span> Hoteles 3 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Australia 3"
@@ -81,7 +137,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="aus4" class="video-toggle-oceania">
+        <input type="checkbox" id="aus4" class="video-oceania">
         <label for="aus4" class="video-portada-oceania"><span>▶</span> Hoteles 2 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Australia 4"
@@ -93,9 +149,9 @@
 
 
     <section class="destinos-videos-oceania">
-      <h3 class="titulo-destacado-oceania">Nueva Zelanda</h3>
+      <h3 id="nzelanda" class="titulo-destacado-oceania">Nueva Zelanda</h3>
       <div class="video-card-oceania">
-        <input type="checkbox" id="nz1" class="video-toggle-oceania">
+        <input type="checkbox" id="nz1" class="video-oceania">
         <label for="nz1" class="video-portada-oceania"><span>▶</span> Hoteles 5 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Nueva Zelanda 1"
@@ -104,7 +160,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="nz2" class="video-toggle-oceania">
+        <input type="checkbox" id="nz2" class="video-oceania">
         <label for="nz2" class="video-portada-oceania"><span>▶</span> Hoteles 4 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Nueva Zelanda 2"
@@ -113,7 +169,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="nz3" class="video-toggle-oceania">
+        <input type="checkbox" id="nz3" class="video-oceania">
         <label for="nz3" class="video-portada-oceania"><span>▶</span> Hoteles 3 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Nueva Zelanda 3"
@@ -122,7 +178,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="nz4" class="video-toggle-oceania">
+        <input type="checkbox" id="nz4" class="video-oceania">
         <label for="nz4" class="video-portada-oceania"><span>▶</span> Hoteles 2 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Nueva Zelanda 4"
@@ -132,13 +188,13 @@
       <a href="presupuesto.html" class="boton">Solicitar presupuesto ✨</a>
     </section>
 
-    <h3 class="titulo-destacado-oceania">Islas Polinesias</h3>
+    <h3 id="islaspoli" class="titulo-destacado-oceania">Islas Polinesias</h3>
 
 
     <section class="destinos-videos-oceania">
       <h4 class="titulo-destacado-oceania">Bora Bora</h4>
       <div class="video-card-oceania">
-        <input type="checkbox" id="bobo1" class="video-toggle-oceania">
+        <input type="checkbox" id="bobo1" class="video-oceania">
         <label for="bobo1" class="video-portada-oceania"><span>▶</span> Hoteles 5 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Bora Bora 1"
@@ -147,7 +203,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="bobo2" class="video-toggle-oceania">
+        <input type="checkbox" id="bobo2" class="video-oceania">
         <label for="bobo2" class="video-portada-oceania"><span>▶</span> Hoteles 4 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Bora Bora 2"
@@ -156,7 +212,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="bobo3" class="video-toggle-oceania">
+        <input type="checkbox" id="bobo3" class="video-oceania">
         <label for="bobo3" class="video-portada-oceania"><span>▶</span> Hoteles 3 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Bora Bora 3"
@@ -173,7 +229,7 @@
     <section class="destinos-videos-oceania">
       <h4 class="titulo-destacado-oceania">Samoa</h4>
       <div class="video-card-oceania">
-        <input type="checkbox" id="sam1" class="video-toggle-oceania">
+        <input type="checkbox" id="sam1" class="video-oceania">
         <label for="sam1" class="video-portada-oceania"><span>▶</span>Hoteles 5 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Samoa 1"
@@ -182,7 +238,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="sam2" class="video-toggle-oceania">
+        <input type="checkbox" id="sam2" class="video-oceania">
         <label for="sam2" class="video-portada-oceania"><span>▶</span> Hoteles 4 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Samoa 2"
@@ -191,7 +247,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="sam3" class="video-toggle-oceania">
+        <input type="checkbox" id="sam3" class="video-oceania">
         <label for="sam3" class="video-portada-oceania"><span>▶</span> Hoteles 3 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Samoa 3"
@@ -200,7 +256,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="sam4" class="video-toggle-oceania">
+        <input type="checkbox" id="sam4" class="video-oceania">
         <label for="sam4" class="video-portada-oceania"><span>▶</span> Hoteles 2 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Samoa 4"
@@ -214,7 +270,7 @@
     <section class="destinos-videos-oceania">
       <h4 class="titulo-destacado-oceania">Tahití</h4>
       <div class="video-card-oceania">
-        <input type="checkbox" id="tah1" class="video-toggle-oceania">
+        <input type="checkbox" id="tah1" class="video-oceania">
         <label for="tah1" class="video-portada-oceania"><span>▶</span>Hoteles 5 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Tahiti 1"
@@ -223,7 +279,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="tah2" class="video-toggle-oceania">
+        <input type="checkbox" id="tah2" class="video-oceania">
         <label for="tah2" class="video-portada-oceania"><span>▶</span> Hoteles 4 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Tahiti 2"
@@ -232,7 +288,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="tah3" class="video-toggle-oceania">
+        <input type="checkbox" id="tah3" class="video-oceania">
         <label for="tah3" class="video-portada-oceania"><span>▶</span> Hoteles 3 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Tahiti 3"
@@ -241,7 +297,7 @@
       </div>
 
       <div class="video-card-oceania">
-        <input type="checkbox" id="tah4" class="video-toggle-oceania">
+        <input type="checkbox" id="tah4" class="video-oceania">
         <label for="tah4" class="video-portada-oceania"><span>▶</span> Hoteles 2 estrellas</label>
         <div class="video-reproductor-oceania">
           <iframe loading="lazy" title="Tahiti 4"
@@ -264,7 +320,7 @@
     </div>
 
     <div id="alumno">
-      <h3>Alumna:</h3>
+      <h3>Alumnas:</h3>
       <p>
         <a href="mailto:alu.chiaradiagomezf@stmary.edu.ar">
           Francesca Chiaradia</a>
