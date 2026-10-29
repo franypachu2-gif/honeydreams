@@ -1181,11 +1181,32 @@ footer {
   padding: 50px;
 }
 
-#disney {
+.disney {
   background-color: rgb(142, 173, 229);
   width: 100%;
   margin: 40px auto 0 auto;
   border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.disney h2{
+  color: #1e6091;
+  font-size: 30px;
+}
+
+.disney ul{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(83, 131, 220);
+}
+
+.disneyenelmundo{
+  display: flex;
+  flex-direction: column;
 }
 
 #contacto {
