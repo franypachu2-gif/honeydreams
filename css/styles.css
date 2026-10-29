@@ -615,11 +615,11 @@ footer {
   border: 0;
 }
 
-.video-america:checked~.video-portada {
+.video-america:checked~.video-portada-america {
   display: none;
 }
 
-.video-america:checked~.video-reproductor {
+.video-america:checked~.video-reproductor-america {
   display: block;
 }
 
